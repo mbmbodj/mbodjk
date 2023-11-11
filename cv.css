@@ -1,0 +1,52 @@
+h1{
+        color:blueviolet;
+        font-family:arial;
+        font-size:35pt;
+        text-align:center;
+        background-color:white;
+
+    }
+    div.identite{
+        border-radius:20pt 20pt;
+        border:1px solid blueviolet;
+        margin-bottom:30px;
+        background-color: cyan;
+    }
+    div.formation, div.compétences, div.experience,div.divers{
+        border-radius:20pt 20pt;
+        border:1px solid green;
+        margin-bottom:30px;
+        background-color: cyan;
+        animation:3s ease-in 1s infinite reverse both running slidein;
+        
+    }
+    #photo{
+        position:absolute;
+        top:52px;
+        right:9px;
+        border-width:1px;
+        border-style:dashed;
+        border-top-right-radius:30pt 30pt;
+    }
+    h2[id^="titre"]{
+        background-color:white;
+        margin-top:0px;
+        padding-left:15px;
+        padding-bottom:5px;
+        padding-top:5px;
+        border-top-left-radius:20pt;
+        border-top-right-radius:20pt;
+    }
+    ul>li{
+        color:blueviolet;
+        font-weight:bold;  
+    }
+    li>span{
+        font-weight:normal;
+        color:black;
+
+    }
+    
+    
+      
+    
